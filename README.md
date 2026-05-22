@@ -1,7 +1,7 @@
 # Retail Analytics Dashboard
 ### Online Retail II — Product Revenue Forecasting, Optuna ExtraTrees & RFM Segmentation
 
-Dashboard Streamlit end-to-end berbasis notebook **Retail Analytics HM Sampoerna** yang mencakup product-based data cleansing, EDA, model selection, Optuna hyperparameter tuning, daily revenue forecasting, refund monitoring, dan RFM customer segmentation.
+Dashboard Streamlit end-to-end berbasis notebook **Retail Analytics ** yang mencakup product-based data cleansing, EDA, model selection, Optuna hyperparameter tuning, daily revenue forecasting, refund monitoring, dan RFM customer segmentation.
 
 ---
 
@@ -53,7 +53,7 @@ Dashboard ini mengonversi notebook analitik retail menjadi aplikasi interaktif b
 ```
 project/
 ├── app.py                        # Entry point Streamlit
-├── retail_transaction_data.csv   # Dataset utama (tidak di-commit)
+├── retail_transaction_data.csv
 ├── requirements.txt
 │
 ├── pages/
@@ -245,7 +245,7 @@ Untuk memaksa retraining, hapus folder `.dashboard_cache/` atau ubah `CACHE_VERS
 
 Dashboard ini dibangun mengikuti alur analitik dari notebook:
 
-> **Retail Analytics HM Sampoerna — ProductRevenue Detailed Optuna RFM**
+> **Retail Analytics ProductRevenue Detailed Optuna RFM**
 
 Pendekatan utama yang dipertahankan dari notebook:
 - Tidak memakai percentile outlier filtering pada produk fisik
